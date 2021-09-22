@@ -51,11 +51,7 @@ function draw() {
     
   }
    
-  //Uncomment correct option to get random number from 1 to 4 
-    red_balloon = Math.round(random(1,4 ),);
-    pink_balloon = Math.round(random(1,4),);
-   green_balloon = Math.round(random(1,4), );
-   blue_balloon = Math.round(random(1,4,),);
+   select_balloon=Math.round(random(1,4))
   
      if (World.frameCount % 100 == 0){
        
